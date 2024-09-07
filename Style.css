@@ -30,6 +30,14 @@ h1 {
     letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
+.subtitulo
+{
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: pink; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+}
+
 .lista-planetas {
     list-style: none;
     padding: 0;
@@ -39,8 +47,11 @@ h1 {
 .lista-planetas li {
     display: inline-block;
     margin: 10px;
-    padding: 5px 10px;
-    background-color: #f0f0f0;
+    padding: 5px 15px;
+    font-size: 1.3rem; /* Tamanho da fonte */
+    /*background-color: #f0f0f0;*/
+    color: #ffffff;
+    background-image: url(imagens/Universo.jpeg);
     border-radius: 5px;
 }
 
@@ -54,12 +65,12 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 30rem; /* Largura dos inputs */
+    width: 40rem; /* Largura dos inputs */
     border: none; /* Remove a borda padrão */
-    padding: 1rem; /* Espaçamento interno */
+    padding: 1.2rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #45474B; /* Cor do texto */
+    color: pink; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -106,6 +117,10 @@ section button {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
+.campo_pesquisa
+{
+    background-image: url(imagens/Universo.jpeg); 
+}
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
