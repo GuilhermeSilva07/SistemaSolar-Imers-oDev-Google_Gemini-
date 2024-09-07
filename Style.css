@@ -86,7 +86,7 @@ section button {
 }
 
 .planeta_imagem{
-    width: 100px; /* Ajusta a largura da imagem */
+    width: 120px; /* Ajusta a largura da imagem */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 50%; /* Cria um círculo perfeito */
     vertical-align: middle; /* Alinha a imagem verticalmente com o texto */
@@ -116,7 +116,7 @@ section button {
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
     text-decoration: none; /* Remove o sublinhado padrão dos links */
-    color: #ffffff; /* Cor do texto dos links */
+    color: pink; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
