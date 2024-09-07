@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Google Gemini</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema Solar</h1>
+        <ul class="lista-planetas">
+            <li>Mercúrio</li>
+            <li>Vênus</li>
+            <li>Terra</li>
+            <li>Marte</li>
+            <li>Júpiter</li>
+            <li>Saturno</li>
+            <li>Urano</li>
+            <li>Netuno</li>
+            <li>Plutão</li>
+        </ul>
+    </header>
+    <main>
+        <section> 
+            <input type="text" placeholder="Digite o nome do planeta" id="campo_pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Sistema Solar. Todos os diretos reservados</p>
+        <p>Entre em contato pelo email: SistemaSolar@gmail.com</p>
+    </footer>
+
+    <script src="planetas.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
